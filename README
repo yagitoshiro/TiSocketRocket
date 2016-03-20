@@ -3,6 +3,7 @@ TiSocketRocket
 
 SocketRocket wrapper for Titanium(iOS)
 
+* Android, Windows, and Mobileweb are not supported.
 
 INSTALL
 -----------------------------
