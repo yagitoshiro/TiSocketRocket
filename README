@@ -35,6 +35,7 @@ ws.createSocket({
 ws.send(JSON.stringify({
   message: "Hello Websocket"
 }));
+
 ```
 
 
