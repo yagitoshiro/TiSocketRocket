@@ -14,7 +14,7 @@ See http://docs.appcelerator.com/platform/latest/#!/guide/Using_a_Module for det
 EXAMPLE
 ------------------------------------
 
-```
+`
 var ws = require('ro.toshi.ti.mod.tisocketrocket');
 ws.addEventListener('open', function(e){
   Ti.API.info("Socket opened");
@@ -35,6 +35,6 @@ ws.createSocket({
 ws.send(JSON.stringify({
   message: "Hello Websocket"
 }));
-```
+`
 
 
