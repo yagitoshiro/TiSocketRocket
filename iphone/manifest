@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: TiSocketRocket
+author: Toshiro Yagi
+license: Specify your license
+copyright: Copyright (c) 2016 by Your Company
+
+# these should not be edited
+name: TiSocketRocket
+moduleid: ro.toshi.ti.mod.tisocketrocket
+guid: fef7bed6-71b2-4872-bd4c-e4a3aef990e3
+platform: iphone
+minsdk: 5.2.0.GA
