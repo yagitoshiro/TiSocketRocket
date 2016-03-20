@@ -113,11 +113,16 @@
     [WS send:args];
 }
 
--(void)send:(id)args
+-(void)sendObject:(id)args
 {
 //    ENSURE_UI_THREAD_1_ARG(args);
     ENSURE_SINGLE_ARG(args, NSDictionary);
     [WS send:args];
+}
+
+-(void)send:(id)args
+{
+    [self sendString:args];
 }
 
 #pragma SRWebSocketDelegate
