@@ -28,7 +28,7 @@ ws.addEventListener('message', function(e){
   Ti.API.info("You got a message!: " + e);
 });
 
-ws.createSocket({
+ws.createWebSocket({
   url: 'wss://example.com/'
 });
 
