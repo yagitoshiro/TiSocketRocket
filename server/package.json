@@ -1,0 +1,11 @@
+{
+  "name": "simple-test-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "nodejs-websocket": "*"
+  }
+}
