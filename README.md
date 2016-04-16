@@ -15,7 +15,11 @@ EXAMPLE
 ------------------------------------
   
 ```javascript
-var ws = require('ro.toshi.ti.mod.tisocketrocket');
+var WS = require('ro.toshi.ti.mod.tisocketrocket');
+var ws = WS.createSocket({
+  url: 'wss://example.com/'
+});
+
 ws.addEventListener('open', function(e){
   Ti.API.info("Socket opened");
 });
@@ -26,10 +30,6 @@ ws.addEventListener('error', function(e){
 
 ws.addEventListener('message', function(e){
   Ti.API.info("You got a message!: " + e);
-});
-
-ws.createWebSocket({
-  url: 'wss://example.com/'
 });
 
 ws.send(JSON.stringify({
