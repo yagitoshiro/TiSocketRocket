@@ -26,6 +26,8 @@
 		24DD6CFA1134B3F500162E58 /* RoToshiTiModTisocketrocketModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* RoToshiTiModTisocketrocketModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* RoToshiTiModTisocketrocketModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* RoToshiTiModTisocketrocketModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* RoToshiTiModTisocketrocketModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* RoToshiTiModTisocketrocketModuleAssets.m */; };
+		3834F55B1CC2B2E40099C185 /* RoToshiTiModTisocketrocketSocketProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3834F5591CC2B2E40099C185 /* RoToshiTiModTisocketrocketSocketProxy.h */; };
+		3834F55C1CC2B2E40099C185 /* RoToshiTiModTisocketrocketSocketProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834F55A1CC2B2E40099C185 /* RoToshiTiModTisocketrocketSocketProxy.m */; };
 		38AA8F251C9C05E500AFFC68 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AA8F231C9C05E500AFFC68 /* CFNetwork.framework */; };
 		38AA8F261C9C05E500AFFC68 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AA8F241C9C05E500AFFC68 /* Security.framework */; };
 		38CD2E9F1C9DE06500892E63 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 38CD2E9D1C9DE06400892E63 /* SRWebSocket.h */; };
@@ -50,6 +52,8 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* RoToshiTiModTisocketrocketModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoToshiTiModTisocketrocketModuleAssets.h; path = Classes/RoToshiTiModTisocketrocketModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* RoToshiTiModTisocketrocketModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoToshiTiModTisocketrocketModuleAssets.m; path = Classes/RoToshiTiModTisocketrocketModuleAssets.m; sourceTree = "<group>"; };
+		3834F5591CC2B2E40099C185 /* RoToshiTiModTisocketrocketSocketProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoToshiTiModTisocketrocketSocketProxy.h; path = Classes/RoToshiTiModTisocketrocketSocketProxy.h; sourceTree = "<group>"; };
+		3834F55A1CC2B2E40099C185 /* RoToshiTiModTisocketrocketSocketProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoToshiTiModTisocketrocketSocketProxy.m; path = Classes/RoToshiTiModTisocketrocketSocketProxy.m; sourceTree = "<group>"; };
 		38AA8F231C9C05E500AFFC68 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		38AA8F241C9C05E500AFFC68 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		38CD2E821C9DCA1F00892E63 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
@@ -113,6 +117,8 @@
 				24DE9E1011C5FE74003F90F6 /* RoToshiTiModTisocketrocketModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* RoToshiTiModTisocketrocketModule.h */,
 				24DD6CF81134B3F500162E58 /* RoToshiTiModTisocketrocketModule.m */,
+				3834F5591CC2B2E40099C185 /* RoToshiTiModTisocketrocketSocketProxy.h */,
+				3834F55A1CC2B2E40099C185 /* RoToshiTiModTisocketrocketSocketProxy.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -137,6 +143,7 @@
 				24DD6CF91134B3F500162E58 /* RoToshiTiModTisocketrocketModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* RoToshiTiModTisocketrocketModuleAssets.h in Headers */,
 				38CD2E9F1C9DE06500892E63 /* SRWebSocket.h in Headers */,
+				3834F55B1CC2B2E40099C185 /* RoToshiTiModTisocketrocketSocketProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3834F55C1CC2B2E40099C185 /* RoToshiTiModTisocketrocketSocketProxy.m in Sources */,
 				38CD2EA01C9DE06500892E63 /* SRWebSocket.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* RoToshiTiModTisocketrocketModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* RoToshiTiModTisocketrocketModuleAssets.m in Sources */,
